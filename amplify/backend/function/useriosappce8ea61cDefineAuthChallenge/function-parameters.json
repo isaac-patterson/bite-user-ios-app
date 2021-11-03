@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-define-challenge"
+  ],
+  "parentResource": "useriosappce8ea61c",
+  "functionName": "useriosappce8ea61cDefineAuthChallenge",
+  "resourceName": "useriosappce8ea61cDefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "triggerEventPath": "DefineAuthChallenge.event.json",
+  "roleName": "useriosappce8ea61cDefineAuthChallenge",
+  "skipEdit": true,
+  "enableCors": false
+}

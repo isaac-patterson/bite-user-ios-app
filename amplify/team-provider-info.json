@@ -1,0 +1,57 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-biteios-dev-181100-authRole",
+      "UnauthRoleArn": "arn:aws:iam::117468630787:role/amplify-biteios-dev-181100-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::117468630787:role/amplify-biteios-dev-181100-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-biteios-dev-181100-deployment",
+      "UnauthRoleName": "amplify-biteios-dev-181100-unauthRole",
+      "StackName": "amplify-biteios-dev-181100",
+      "StackId": "arn:aws:cloudformation:us-east-1:117468630787:stack/amplify-biteios-dev-181100/f26e5990-de20-11eb-bb67-0a1b09a7e4bb",
+      "AmplifyAppId": "dt5dishfvfh17"
+    },
+    "categories": {
+      "auth": {
+        "biteios9c6288fb": {
+          "userPoolId": "us-east-1_ciKJBN6LL",
+          "userPoolName": "User Pool",
+          "webClientId": "6tmi8lm5acvj8dfvo1ttasjhpa",
+          "nativeClientId": "6tmi8lm5acvj8dfvo1ttasjhpa"
+        }
+      }
+    }
+  },
+  "ios": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-user-ios-app-ios-115832-authRole",
+      "UnauthRoleArn": "arn:aws:iam::117468630787:role/amplify-user-ios-app-ios-115832-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::117468630787:role/amplify-user-ios-app-ios-115832-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-user-ios-app-ios-115832-deployment",
+      "UnauthRoleName": "amplify-user-ios-app-ios-115832-unauthRole",
+      "StackName": "amplify-user-ios-app-ios-115832",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:117468630787:stack/amplify-user-ios-app-ios-115832/bcdac2a0-dfb5-11eb-916e-028fff816afe",
+      "AmplifyAppId": "dsm7ts9k8ka8j"
+    },
+    "categories": {
+      "function": {
+        "useriosappce8ea61cDefineAuthChallenge": {},
+        "useriosappce8ea61cCreateAuthChallenge": {},
+        "useriosappce8ea61cVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": ""
+        }
+      },
+      "auth": {
+        "useriosappf3858afa": {},
+        "useriosappbca7c792": {}
+      },
+      "storage": {
+        "user_ios_appaf0e34bb": {
+          "bucketName": "usersprofilephoto",
+          "region": "us-east-1"
+        }
+      }
+    }
+  }
+}
